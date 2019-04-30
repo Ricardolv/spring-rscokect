@@ -8,5 +8,5 @@
 ### Stream request.
 ![Stream request.](data/request-stream.png)
 
-### Request stream with treated error.
+### Request stream with treated error, using `@MessageExceptionHandler`
 ![Request stream with treated error.](data/request-stream-error.png)
