@@ -3,10 +3,10 @@
 ## Consumer endpoints:
 
 <p>Simple request.</p><br/>
-![](data/simple-request.png)
+![](data/simple-request.png) <br/>
 
 <p>Stream request.</p><br/>
-![](data/request-stream.png)
+![](data/request-stream.png) <br/>
 
 <p>Request stream with treated error.</p><br/>
-![](data/request-stream-error.png)
+![](data/request-stream-error.png) <br/>
