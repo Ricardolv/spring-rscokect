@@ -6,7 +6,7 @@
 
 #### Project consumer.
 `
-    @GetMapping("/greet/{name}")
+@GetMapping("/greet/{name}")
     Publisher<GreetingsResponse> greet(@PathVariable String name) {
 
         return this.requester
