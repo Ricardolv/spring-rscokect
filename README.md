@@ -88,3 +88,10 @@
 
 #### Result:
 ![Request stream with treated error.](data/request-stream-error.png)
+
+
+
+[Reference](https://www.youtube.com/watch?v=BxHqeq58xrE)
+
+
+
