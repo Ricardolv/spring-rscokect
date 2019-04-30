@@ -2,4 +2,3 @@
 
 Project Consumer simple endpoint greet: 
 ![](data/simple-request.png)
-
