@@ -1,12 +1,9 @@
 # RSocket Messaging in Spring Boot 2.2
 
-## Consumer endpoints:
+## Consumer endpoints: 
 
-<p>Simple request.</p><br/>
-![](data/simple-request.png) <br/>
+![Simple request.](data/simple-request.png) 
 
-<p>Stream request.</p><br/>
-![](data/request-stream.png) <br/>
+![Stream request.](data/request-stream.png)
 
-<p>Request stream with treated error.</p><br/>
-![](data/request-stream-error.png) <br/>
+![Request stream with treated error.](data/request-stream-error.png)
