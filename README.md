@@ -28,8 +28,8 @@
 
 ### Stream request.
 <pre> <code>
-   // Project consumer -> class GreetingsResource
-   @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE, value = "/greet/sse/{name}")
+    // Project consumer -> class GreetingsResource
+    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE, value = "/greet/sse/{name}")
     Publisher<GreetingsResponse> greetStream(@PathVariable String name) {
 
         return this.requester
