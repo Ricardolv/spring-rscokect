@@ -4,25 +4,27 @@
 
 ### Simple request.
 
-#### Project consumer.
-`
+<p> Project consumer.
+<pre> <code>
     @GetMapping("/greet/{name}")
         Publisher<GreetingsResponse> greet(@PathVariable String name) {
-            return this.requester
-                .route("greet")
-                .data(new GreetingsRequest(name))
-                .retrieveMono(GreetingsResponse.class);
+        return this.requester
+            .route("greet")
+            .data(new GreetingsRequest(name))
+            .retrieveMono(GreetingsResponse.class);
     }
-`
+</code> </pre>
+</p>
 
-#### Project producer.
-`
+<p> Project producer.
+<pre> <code>
     @MessageMapping("greet")
     GreetingsResponse greet(GreetingsRequest request) {
         log.info(" name request => " + request.getName());
         return new GreetingsResponse(request.getName());
     }
-`
+</code> </pre>
+</p>
 
 ![Simple request.](data/simple-request.png) 
 
